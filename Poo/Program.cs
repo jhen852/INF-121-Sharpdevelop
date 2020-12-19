@@ -21,6 +21,12 @@ namespace Poo
 			V1 = new Vector(n);
 			V1.LlenarVector();
 			V1.mostrar();
+			
+			// sumar los elementos 
+			C.WriteLine("Sumar elementos");
+			//debemos asignarle una variable y esa variable despues imprimir 
+			int suma = V1.sumarElementos();
+			C.WriteLine("La suma de los numeros de los vectores es "+suma);
 			Console.ReadKey(true);
 		}
 	}
